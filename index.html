@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./Style.css" />
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul class="menu">
+            <li class="menuItem logo">FORMULARIO</li>
+        </ul>
+    </nav>    
+
+    <section class="cajaFormulario">
+        <form class="form" action="" method="get">
+            <p class="datosPersonales">DATOS PERSONALES</p>
+            <input placeholder="Nombres" class="inputText" type="text" name="names" autofocus required />
+            <input placeholder="Apellidos" class="inputText" type="text" name="lastName" required />
+            <br><input placeholder="Correo electronico" class="inputText grandInput" type="email" required />
+            <br><input placeholder="Telefono" class="inputText grandInput" type="tel" name="telefono" />
+            <p>Fecha de nacimiento:  <input  class="inputText " type="date" required /></p>
+            <p> Color favorito: <input  class="inputText" type="color" /></p>
+            <input type="submit" class="boton" />
+        </form>
+    </section>
+    <footer class="footer">
+        <ul class="info">
+            <li class="infoItem">Hansel Rodriguez Bravo</li>
+            <li class="infoItem">5to "A"</li>
+        </ul>
+    </footer>
+</body>
+
+</html>

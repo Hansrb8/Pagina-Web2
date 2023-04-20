@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: rgb(241, 241, 241);
+}
+.navigation {
+  border-bottom: 1px solid rgb(184, 184, 184);
+  padding-inline: 120px;
+  padding-top: 10px;
+  height: 60px;
+  box-shadow: 0 0 4px black;
+}
+ul {
+  list-style: none;
+}
+.menu {
+  color: rgb(79, 70, 87);
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+.menuItem {
+  font-family: monospace;
+}
+.header {
+  text-align: center;
+  padding-top: 20px;
+}
+.boton {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid rgb(100, 60, 146);
+  background-color: white;
+  margin-top: 15px;
+  color: rgb(49, 29, 71);
+}
+.boton:hover {
+  background-color: rgb(100, 60, 146);
+  transition: 0.5s;
+  color: white;
+  cursor: pointer;
+}
+.footer {
+  border-top: 1px solid rgb(119, 119, 119);
+  color: rgb(255, 255, 255);
+  height: 90px;
+  box-shadow: 0 0 8px rgb(56, 56, 56);
+  background-color: rgb(32, 32, 32);
+}
+.info {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.grandInput {
+  width: 376px;
+}
+.cajaFormulario {
+  margin-inline: 400px;
+  margin-block: 40px;
+  padding-block: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(122, 122, 122);
+  background-color: white;
+}
+.inputText {
+  border: 1px solid rgb(139, 139, 139);
+  border-radius: 3px;
+  height: 50px;
+  margin-block: 7px;
+  font-size: 17px;
+  padding-left: 15px;
+}
+.form {
+  text-align: center;
+}
+.inputText:focus {
+  outline: none !important;
+  border: 1px solid rgb(121, 90, 160);
+  box-shadow: 0 0 10px #2c1052;
+}
+.header {
+  font-size: 17px;
+  text-align: left;
+}
+.datosPersonales {
+  margin-block: 10px;
+  font-size: 20px;
+  color: rgb(85, 64, 104);
+}
